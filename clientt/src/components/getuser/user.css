@@ -1,0 +1,30 @@
+.userTable{
+
+width: 60;
+background-color: white;
+box-shadow: 1px 1px 8px rgba(0, 0, blue, alpha);
+border-radius: 5px;
+margin:50pa auto;
+padding:50px
+
+
+}
+
+.addButton{
+text-decoration:none;
+background-color: purple;
+color:white;
+font-weight: 500;
+border: 5px;
+padding: 10px;
+
+
+
+}
+.userTable table{
+width:100%;
+color:black;
+padding: 10px;
+margin-top: 20px;
+
+}
