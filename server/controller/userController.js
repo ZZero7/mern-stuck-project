@@ -9,7 +9,7 @@ export const create = async (req, res) => {
     }
 
     const savedData = await userData.save();
-    res.status(200).json(savedData); // Corrected variable name
+    res.status(200).json(savedData); 
   } catch (error) {
     console.error("Error:", error.message);
     res.status(500).json({ error: error.message }); // Return error message
